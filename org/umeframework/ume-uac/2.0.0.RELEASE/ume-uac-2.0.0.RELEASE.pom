@@ -4,8 +4,8 @@
 	<!-- Using repository of UME@ https://github.com/ume-team -->
 	<repositories>
 		<repository>
-			<id>ume-repository</id>
-			<url>https://raw.githubusercontent.com/ume-team/ume-repository/master</url>
+			<id>umestore</id>
+			<url>https://raw.githubusercontent.com/umeframework/umestore/master</url>
 		</repository>
 	</repositories>
 

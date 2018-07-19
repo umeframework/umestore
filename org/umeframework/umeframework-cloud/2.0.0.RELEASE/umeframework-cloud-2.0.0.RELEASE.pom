@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<distributionManagement>
 		<repository>
-			<id>local-ume-repository</id>
-			<url>file:../ume-repository</url>
+			<id>local-umestore</id>
+			<url>file:../umestore</url>
 			<uniqueVersion>false</uniqueVersion>
 		</repository>
 	</distributionManagement>
@@ -185,6 +185,19 @@
 					</execution>
 				</executions>
 			</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 		</plugins>
 
 		<sourceDirectory>src/main/java</sourceDirectory>

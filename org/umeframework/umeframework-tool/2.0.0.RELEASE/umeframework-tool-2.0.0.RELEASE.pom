@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<distributionManagement>
 		<repository>
-			<id>local-ume-repository</id>
-			<url>file:../ume-repository</url>
+			<id>local-umestore</id>
+			<url>file:../umestore</url>
 			<uniqueVersion>false</uniqueVersion>
 		</repository>
 	</distributionManagement>

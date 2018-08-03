@@ -47,8 +47,8 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>local-ume-repository</id>
-      <url>file:../ume-repository</url>
+      <id>local-umestore</id>
+      <url>file:../umestore</url>
     </repository>
   </distributionManagement>
 </project>

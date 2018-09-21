@@ -35,8 +35,10 @@
 
   <developers>
     <developer>
-      <name>UME Framework Group</name>
-      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+      <name>Pivotal</name>
+      <email>info@pivotal.io</email>
+      <organization>Pivotal Software, Inc.</organization>
+      <organizationUrl>http://www.spring.io</organizationUrl>
     </developer>
   </developers>
 

@@ -55,7 +55,6 @@
 		<version.velocity>1.7</version.velocity>
 		<version.xstream>1.4</version.xstream>
 		<version.xpp3>1.1.4c</version.xpp3>
-		<version.log4j>1.2.17</version.log4j>
         <version.log4j2>2.6.2</version.log4j2>
         <version.slf4j-log4j12>1.7.25</version.slf4j-log4j12>
 		<version.mysql-connector-java>5.1.31</version.mysql-connector-java>

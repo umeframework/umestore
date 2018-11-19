@@ -5,7 +5,7 @@
     <distributionManagement>
         <repository>
 			<id>local-umestore</id>
-			<url>file:../umestore</url>
+			<url>file:../../umestore</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
     </distributionManagement>
@@ -26,19 +26,8 @@
         
         <module>../umeframework</module>
         <module>../umeframework-boot</module>
-        <module>../umeframework-cloud</module>
         <module>../umeframework-tool</module>
         
-        <module>../ume-cloud-eureka</module>
-        <module>../ume-cloud-gateway</module>
-        <module>../ume-cloud-config</module>
-       
-        <!-- 
-
-        <module>../ume-ems</module>
-        <module>../ume-wechat</module>
-        <module>../ume-ems-wechat</module>
-        -->
 	</modules>
 	
 

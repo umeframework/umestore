@@ -32,8 +32,8 @@
 
   <developers>
     <developer>
-      <name>UME Framework Group</name>
-      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+      <name>UME Group</name>
+      <organizationUrl>https://github.com/orgs/umeframework</organizationUrl>
     </developer>
   </developers>
 
@@ -46,9 +46,8 @@
 
   <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
       <id>local-umestore</id>
-      <url>file:../umestore</url>
+      <url>file:../../umestore</url>
     </repository>
   </distributionManagement>
 </project>

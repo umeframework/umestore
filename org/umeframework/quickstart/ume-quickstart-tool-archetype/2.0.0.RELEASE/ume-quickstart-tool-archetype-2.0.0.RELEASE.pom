@@ -28,7 +28,7 @@
     </pluginManagement>
   </build>
 
-  <url>http://umeframework.org/umeframework/umeframework-tool/ume-quickstart-tool</url>
+  <url>http://umeframework.org/ume-quickstart-tool</url>
 
   <developers>
     <developer>
@@ -46,6 +46,7 @@
 
   <distributionManagement>
     <repository>
+      <uniqueVersion>false</uniqueVersion>
       <id>local-umestore</id>
       <url>file:../../umestore</url>
     </repository>
